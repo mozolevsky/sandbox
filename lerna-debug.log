@@ -1,0 +1,10 @@
+0 silly argv { _: [ 'run' ],
+0 silly argv   scope: '@custom/shell',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   script: 'dev' }
+1 notice cli v3.22.1
+2 verbose rootPath D:\github\sandbox
+3 error JSONError: Unexpected token } in JSON at position 345 while parsing near '..."rm -rf ./dist",  },  "dependencies"...' in ui\shell\package.json
+3 error     at module.exports (D:\github\sandbox\node_modules\parse-json\index.js:26:19)
+3 error     at parse (D:\github\sandbox\node_modules\load-json-file\index.js:15:9)
