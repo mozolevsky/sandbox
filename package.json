@@ -1,0 +1,45 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "git@github.com:mozolevsky/sandbox.git",
+  "author": "Sergey, Dasha",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:shell": "lerna run --scope @custom/shell build",
+    "dev:shell": "lerna run --scope @custom/shell dev",
+    "clean:shell": "lerna run --scope @custom/shell clean",
+
+    
+    "build:app1": "lerna run --scope @custom/app1 build",
+    "dev:app1": "lerna run --scope @custom/app1 dev",
+    "clean:app1": "lerna run --scope @custom/app1 clean"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/node": "10.17.19",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "fork-ts-checker-webpack-plugin": "^4.1.3",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.3",
+    "terser-webpack-plugin": "^2.3.5",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  }
+}

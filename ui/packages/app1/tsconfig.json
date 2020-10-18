@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "jsx": "react",
+      "noImplicitAny": false,
+      "target": "esnext",
+      "noEmit": true,
+      "diagnostics": false,
+      "baseUrl": ".",
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "module": "esnext",
+      "declaration": true,
+      "moduleResolution": "node",
+      "skipLibCheck": true,
+      "strict": true,
+      "noImplicitReturns": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "noEmitOnError": true,
+      "strictPropertyInitialization": false,
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "types": [
+        "react"
+      ]
+    },
+  "compileOnSave": true,
+  "buildOnSave": true,
+  "exclude": [
+    "**/node_modules",
+    "**/target"
+  ]
+}
+  
