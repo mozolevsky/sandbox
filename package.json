@@ -1,0 +1,22 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mozolevsky/sandbox.git",
+  "author": "Darya Yarakhovich <dyarakhovich@thinktime.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "yarn run nodemon ./backend/app.js"
+  },
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "faker": "^5.1.0",
+    "nodemon": "^2.0.5"
+  },
+  "devDependencies": {}
+}
